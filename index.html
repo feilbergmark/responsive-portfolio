@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frontend Dev Course</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            
+
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop">
+                        <img src="images/exit.svg" alt="exit menu">
+                    </li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <img src="images/default copy.png" alt="default" class="center" style="max-width:100%;height:auto;">
+            
+            <h1>Hi, I'm Mark Feilberg</h1>
+            <p class="subhead">A UX/UI Designer committed to making <br> things easy to use & visually interesting. <br> I want to help companies create efficient <br> interfaces derived from a user-centered <br> approach.</p>
+
+            <a href="#" class="cta">Get In Touch</a>
+
+            
+        </section>
+    </div>
+    
+    
+
+    </h1>
+    <div class="purple-container">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>
+                    
+                    <img src="images/Card1.png" alt="skills card">
+                </li>
+                <li>
+                    <img src="images/Card2.png" alt="skills icon">
+                </li>
+                <li>
+                    <img src="images/Card4.png" alt="skills icon">
+                            
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <div class="gray-container">
+        <div class="container">
+            <h2>Recent Projects</h1>
+            <ul>
+                <li>
+                    
+                        <img src="images/MCS box_.png" alt="Projects Card">
+                </li>
+                <li>
+                        <img src="images/DOI box_.png" alt="Projects Card">
+                </li>
+                <li>
+                    <img src="images/Snooze box_.png" alt="Projects Card">
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="footer-H1">Mark Feilberg</h2>
+        <p class="footer-H1-text">A self taught digital artist<br> with a passion for design,<br> recently graduating from<br> the University of Irvine<br> UX/UI bootcamp.</p>
+        <h2 class="footer-2">Let's Talk</h1>
+        <p class="footer-2-sub">(949)-228-4574<br>feilbergmark@gmail.com</p>
+        <h2 class="footer-3">Social Links</h2>
+        <img src="images/Social Links.png" class="social-media" width=130px;>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="#">
+                   
+                </a>
+               
+                <ul class="footer-links">
+                   
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+    
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener('click', function(e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+
+        exit.addEventListener('click', function(e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+
+    </script>
+
+</body>
+</html>
