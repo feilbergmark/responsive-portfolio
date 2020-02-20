@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Frontend Dev Course</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/Users/markfeilberg/Desktop/frontend-dev-project/responsive-portfolio/css/main.css">
 </head>
 <body>
     <div class="container">
@@ -24,12 +24,12 @@
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">About Me</a></li>
-                    <li><a href="#">Contact</a></li>
+                    
                 </ul>
             </nav>
         </header>
 
-        <section>
+        <section class="welcome">
             <img src="images/default copy.png" alt="default" class="center" style="max-width:100%;height:auto;">
             
             <h1>Hi, I'm Mark Feilberg</h1>
@@ -46,24 +46,45 @@
     </h1>
     <div class="purple-container">
         <div class="container">
-            <h2>Skills</h2>
+            <h2 class="process">My Process</h2>
             <ul>
                 <li>
-                    
-                    <img src="images/Card1.png" alt="skills card">
+                    <img src="images/user-research card.png" alt="skills card">
                 </li>
                 <li>
-                    <img src="images/Card2.png" alt="skills icon">
+                    <img src="images/definition card.png" alt="skills icon">
                 </li>
                 <li>
-                    <img src="images/Card4.png" alt="skills icon">
-                            
+                    <img src="images/prototyping card.png" alt="skills icon">           
+                </li>
+                <li>
+                    <img src="images/testing card.png" alt="skills icon">           
                 </li>
                 
             </ul>
         </div>
     </div>
 
+<div class="white-container">
+    <div class="container flexContainer">
+        <div class="flexChild">
+        <img src="images/MCS mockup.png" class="mockup">
+        <div class="textContain">
+        <h2 class="UI">Interface Design</h1>
+        <p class="UI-text">I specialize in launching products and <br> services. I enhance your product by <br> creating fluid and ergonomic interfaces <br> so that they are adapted to your users.<br> Ease of use and consistency are my <br> goals.</p>
+        </div>
+        </div>
+        <div class="flexChild">
+        <div>
+        <h2 class="interaction">Interaction Design</h1>
+            <p class="interaction-text">Micro-interaction is the visual translation of what the user is doing (scrolling, changing pages, clicking a button, etc.) in the product context. It is the detail that will create emotion in the user , improve his/her experience by bringing more life to the interfaces.</p>
+        </div>
+        <img src="images/DOI mock.png" class="mock2">
+    </div>
+</div>  
+
+    
+    
     <div class="gray-container">
         <div class="container">
             <h2>Recent Projects</h1>
@@ -82,9 +103,8 @@
         </div>
     </div>
 
-    <div class="container">
-        <h2 class="footer-H1">Mark Feilberg</h2>
-        <p class="footer-H1-text">A self taught digital artist<br> with a passion for design,<br> recently graduating from<br> the University of Irvine<br> UX/UI bootcamp.</p>
+    <div class="footer-container">
+       
         <h2 class="footer-2">Let's Talk</h1>
         <p class="footer-2-sub">(949)-228-4574<br>feilbergmark@gmail.com</p>
         <h2 class="footer-3">Social Links</h2>
@@ -123,6 +143,8 @@
         });
 
     </script>
+
+
 
 </body>
 </html>
